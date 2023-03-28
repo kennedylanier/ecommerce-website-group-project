@@ -1,12 +1,13 @@
-* {
-    margin-left: 15px;
-    margin-right: 15px;
+.container1, .container2 {
+    padding-left: 70px;
+    padding-right: 70px;
 }
 .container1 {
     display: flex;
     flex-direction: row;
     text-align: left;
     justify-content: left;
+    text-overflow: wrap;
    
 }
 .col-6 {
@@ -24,6 +25,7 @@
 .container2 {
     margin-bottom: 20px;
     padding-bottom: 50px;
+    text-overflow: wrap;
 }
 
         .footer {
