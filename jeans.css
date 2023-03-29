@@ -1,4 +1,4 @@
-.container1, .container2 {
+.container1, .container2, .extra {
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -10,9 +10,7 @@
     text-overflow: wrap;
    
 }
-.col-6 {
-    position: 
-}
+
 #button {
     padding-left: 17px;
 
@@ -23,9 +21,21 @@
 }
 
 .container2 {
+
+    padding-bottom: 50px;
+    text-overflow: wrap;
+}
+
+.extra {
+    background-color: rgb(159, 177, 159);
+    color:white;
+    text-align: center;
     margin-bottom: 20px;
     padding-bottom: 50px;
     text-overflow: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+    align-items: center;
 }
 
         .footer {
