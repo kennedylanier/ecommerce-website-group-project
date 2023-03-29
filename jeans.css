@@ -1,7 +1,10 @@
+
 .nav {
     align-items: center;
     text-align: center;
 }
+
+
 
 .container1, .container2, .extra {
     padding-left: 70px;
@@ -16,8 +19,10 @@
    
 }
 
-
-
+.wishlist {
+    text-decoration: none;
+    color:rgb(99, 179, 104);
+}
 
 
 .container2 {
@@ -27,7 +32,7 @@
 }
 
 .extra {
-    background-color: rgb(99, 179, 104);
+    background-color: #A6BF9E;
     color:white;
     text-align: center;
     margin-bottom: 20px;
