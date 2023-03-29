@@ -1,3 +1,4 @@
+
 /* hero */
 .hero-image {
     background-image: url('https://bnz06pap004files.storage.live.com/y4mCxy_cj53PvioYNSuETk2cfRAuLXUU9rzSp5ctf-fr0WYCbs2AWSLCZOi-KoZuiDVN90RrN24bUOPv3ldstVDHh7yoZtqRkLWCAT2PDp7xGWCtuhW43l6USQp7aUm1DTRIam5-EgHc-mMNehO9I6NvXfUIpcch2UeYaUOoAy2u9SNE2G5gLPbyaMqXSeKb1vuSpGObA3PY9nANlW7CtygaQ?encodeFailures=1&width=1314&height=876');
@@ -66,21 +67,27 @@
     justify-content: center;
     align-items: center;
     width: 200px;
-    margin-right: 60px;
+
   }
  
 /*features*/
 .container py-4{
   padding-top: 70px; 
-    padding-bottom: 70px
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   .card {
+  
     position: relative;
     overflow: hidden;
     background: #fff;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
+    height: 300px;
+    width: 300px
   }
   
   .card:hover {
@@ -109,7 +116,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* set the height of the container to 100% */
-  padding-top: 50px; /* adjust the value as needed */
+  height: 100%; 
+  padding-top: 50px; 
   padding-bottom: 50px;
+  text-align: center;
 }
