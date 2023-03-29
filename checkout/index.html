@@ -7,29 +7,34 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <style>
+      .btn {
+        color: white;
+        background-color:rgb(83, 156, 88);
+      border-color: black;}
+      .btn:hover {background-color: rgb(83, 156, 88);
+      opacity: 0.8}
         .checkout_form {
             padding-left: 300px;
             padding-right: 300px;
-            margin: auto;
+            margin:auto;
             display: flex;
         }
         .progress_numbers{
             text-align: center;
-            padding-bottom:50px;
             width: 500px;
             display: flex;
             margin: auto;
             justify-content: center;
             justify-content: space-between;
         }
-        .progress_labels{;
+        .progress_labels{
             display: flex;
             margin: auto;
             justify-content: center;
             justify-content: space-between;
         }
         .number_1{ 
-            color: green;
+            color:rgb(83, 156, 88);
         }
         .number_2 {
             color:#D3D3D3}
@@ -37,24 +42,57 @@
         .number_3 {
             color:#D3D3D3
         }
+        .payment-form{
+          color:darkgray;
+          margin-left: 300px;
+          margin-right: 300px;
+        }
         .footer {
         width:100%;
         padding-left: 10px;
         padding-top: 20px;    
         font-family: Arial, Helvetica, sans-serif;
-        background-color:#D3D3D3}
-        .copyright{text-align: center;
+        background-color:#EFEEEE}
+        .copyright{font-size: small;
+            text-align: center;
         padding-bottom: 20px;}
         .social_media
         {display: flex;
             width: 200px;
             justify-content: space-around;
             margin: auto;}
-        .divider {
-            height: 20px;
+        table {display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
         }
-        
-    </style>
+        th {font-size: small;
+            font-weight: 700;
+            padding-left: 50px;
+            padding-right: 50px;
+        align-items: flex-start;}
+        td {
+            font-size: smaller;
+            padding-left: 50px;
+            padding-right: 50px;
+            align-items:start;
+        }
+        .divider{height:20px}
+        h4{margin-left: 300px;}
+        .payment, .complete {color: darkgray;}
+        .line{
+          margin-left: 300px;
+          margin-right: 300px;}
+          .list-group{
+            position: fixed;
+            padding-bottom: 100px;
+            height: 100px;
+            width:200px;
+            align-items: start;
+          }
+          .shipping{
+            margin-left: 300px;
+          }
+          
     </style>
 </head>
 <body>
@@ -76,13 +114,21 @@
         
         </ul>
         
-        <ul class="nav">
-        
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li>
-        
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sign up</a></li>
-        
-        </ul>
+        <ul class="nav"> 
+          <li class="nav-item"><a href="#" class="nav-link link-dark px-2">
+            <svg xmlns="http://www.w3.org/2000/svg" style= "margin-right:3px"; width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+            </svg>Login</a></li> 
+          <li class="nav-item"><a href="#" class="nav-link link-dark px-2">
+            <svg xmlns="http://www.w3.org/2000/svg" style= "margin-right:3px"; width="16" height="16" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
+              <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+              <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+            </svg>Sign up</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-dark px-2">
+            <svg xmlns="http://www.w3.org/2000/svg" style= "margin-right:3px; margin-bottom:3px" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+          </svg>Shopping Bag</a></li> 
+        </ul> 
         
         </div>
         
@@ -96,8 +142,8 @@
         
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
         
-        <span class="fs-4">Steigler EdTech</span>
-        
+        <span class="fs-4"><img src= "Product-Pictures/logo1.png" width="40px">
+          Stiegler Basics</span></a> 
         </a>
         
         <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
@@ -130,7 +176,17 @@
               <p>Complete</p>
               </div>
             </div>
-           
+      <ul class="list-group list-group-flush">
+      <li class="list-group-item"><h5>Cart Summary:</h5></li>
+        <li class="list-group-item">Regular Jeans (1) <b>$24.99</b></li>
+        <li class="list-group-item">Puffer Jacket (1) <b>$30.99</b></li>
+        <li class="list-group-item">White Socks (1) <b>$4.99</b></li>
+        <li class="list-group-item"><b>TOTAL PRICE: $65.97</b></li>
+      <li class="list-group-item"><u><h6>Back to Cart</h6></u></li>
+      </ul>
+      
+    <h4 class="shipping">Shipping</h4>
+    <br>
     <div class="checkout_form">
     <form class="row g-3">
         <div class="col-md-6">
@@ -173,17 +229,45 @@
           </div>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary">Continue to payment</button>
+          <button type="submit" class="btn">Save and Continue</button>
         </div>
       </form>
       </div>
-      <div class="divider"></div>
+      <br><hr class="line">
+      <h4 class="payment">Payment</h4>
+      </div>
+      <hr class="line">
+      <h4 class="complete">Complete</h4>
+      <hr class="line">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
       <div class="footer">
-        <p><b>About</b></p>
-        <p><b>Contact</b></p>
-        <p><b>Find A Store</b></p>
-        <p><b>Sustainability</b></p>
+        <table>
+          <tr>
+              <th>Company Info</th>
+              <th>Help</th>
+              <th>Quick Links</th>
+          </tr>
+          <tr>
+              <td>About Us</td>
+              <td>Contact Us</td>
+              <td>Special Offers</td>
+          </tr>
+          <tr>
+              <td>Careers</td>
+              <td>Order Status</td>
+              <td>Gift Cards</td>
+          </tr>
+          <tr>
+              <td>Social Responsibility</td>
+              <td>Shipping Info</td>
+              <td>Student/Graduate Discount</td>
+          </tr>
+          <tr>
+              <td>Affiliate Program</td>
+              <td>Online Returns and Exchanges</td>
+              <td>Blog</td>
+          </tr>
+      </table>
         <hr>
         <div class="social_media">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
