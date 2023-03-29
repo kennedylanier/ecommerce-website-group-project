@@ -1,0 +1,59 @@
+body{
+  font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+.col-2 h5 {
+  font-family: roboto-medium, arial;
+  font-size: 1em;
+}
+
+.col-2 a {
+  font-family: roboto-thin, arial;
+  color: #aeadad;  ;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.col-2 a:hover{
+  text-decoration: underline;
+  color:#f15e5e
+}
+
+@media screen and (max-width: 500px) {
+  .side-panel {
+    position: absolute;
+    display: none;
+  }
+}
+
+.flexnav .dropdown-menu.show {
+  min-width: 100%;
+}
+
+.card img{
+  transition: 0.3s;
+}
+.card img:hover{ position: relative; 
+  top: -7px;
+     } 
+
+.card .card-desc{
+  font-family: roboto-thin Arial, Helvetica, sans-serif;
+  color: #aeadad;  
+  font-size: 1em;
+}
+
+.card .price{
+  color:black;
+}
+
+.card .buy-now{
+  border-radius: 2px;
+  color:white;
+  border: none;
+  background-color: rgb(99, 179, 104);
+  transition: 0.3s;
+}
+.card .buy-now:hover{
+  opacity: 0.8;
+}
