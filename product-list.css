@@ -1,5 +1,5 @@
 body{
-  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .col-2 h5 {
@@ -26,8 +26,22 @@ body{
   }
 }
 
+
 .flexnav .dropdown-menu.show {
   min-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .flexnav .size  {
+    position: absolute;
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .flexnav .pattern  {
+    position: absolute;
+    display: none;
+  }
 }
 
 .card img{
@@ -57,3 +71,35 @@ body{
 .card .buy-now:hover{
   opacity: 0.8;
 }
+.footer {
+  width:100%;
+  padding-left: 10px;
+  padding-top: 20px;    
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#EFEEEE}
+  .copyright{font-size: small;
+      text-align: center;
+  padding-bottom: 20px;}
+  .social_media
+  {display: flex;
+      width: 200px;
+      justify-content: space-around;
+      margin: auto;}
+  table {display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  }
+  th {font-size: small;
+      font-weight: 700;
+      padding-left: 50px;
+      padding-right: 50px;
+  align-items: flex-start;}
+  td {
+      font-size: smaller;
+      padding-left: 50px;
+      padding-right: 50px;
+      align-items:start;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
