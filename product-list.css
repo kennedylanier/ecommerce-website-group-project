@@ -16,7 +16,7 @@ body{
 
 .col-2 a:hover{
   text-decoration: underline;
-  color:#f15e5e
+  color:black;
 }
 
 @media screen and (max-width: 500px) {
