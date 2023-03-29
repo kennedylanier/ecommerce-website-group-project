@@ -31,6 +31,15 @@
     text-overflow: wrap;
 }
 
+#button {
+    border-radius: 10px;
+    background-color:rgb(99, 179, 104);
+    border: none;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
 .extra {
     background-color: #A6BF9E;
     color:white;
