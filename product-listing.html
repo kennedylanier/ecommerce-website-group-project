@@ -21,83 +21,43 @@
     />
     <link rel="stylesheet"  href="product-list.css">
 
-    <!--Google FOnts-->
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Delius&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-
-    <style>
-      .footer {
-      width:100%;
-      padding-left: 10px;
-      padding-top: 20px;    
-      font-family: Arial, Helvetica, sans-serif;
-      background-color:#D3D3D3}
-      .copyright{text-align: center;
-      padding-bottom: 20px;}
-      .social_media
-      {display: flex;
-          width: 200px;
-          justify-content: space-around;
-          margin: auto;}
-
-          
-      
-        body {
-            height: 100%;
-        }
-        #green {
-            height: 100%;
-            
-            text-align: left;
-            color: black;
-        }
-    </style>
-  </style>
-  </head>
-  <body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Delius&family=Roboto:wght@100;300;400;500&display=swap" 
+    rel="stylesheet">
+</head>
+  
+<body>
     <!--Navigation Bar-->
     <nav class="py-2 bg-body-tertiary border-bottom"> 
-
       <div class="container d-flex flex-wrap"> 
-  
         <ul class="nav me-auto"> 
-  
           <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Home</a></li> 
-  
           <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Tops</a></li> 
-  
           <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Bottoms</a></li> 
-  
           <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Children</a></li> 
-  
           <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Accessories</a></li> 
-  
         </ul> 
   
         <ul class="nav"> 
-  
           <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li> 
-  
           <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sign up</a></li> 
-  
         </ul> 
-  
       </div> 
-  
     </nav> 
-      <header class="py-3 mb-4 border-bottom"> 
+   <header class="py-3 mb-4 border-bottom"> 
           <div class="container d-flex flex-wrap justify-content-center"> 
               <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none"> 
               <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> 
-              <span class="fs-4">Stiegler Basics</span></a> 
+                 <span class="fs-4">Stiegler Basics</span></a> 
               <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search"> 
-              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                 <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
               </form> 
           </div> 
-      </header> 
+    </header> 
+    
     <section>
-
       <!-- This container contains the sidebar
             and hero content of the page -->
     <!-- h-100 takes the full height of the container-->
@@ -195,7 +155,7 @@
                 <a href="#">Sleepwear</a>
                 <br/>
                 
-                <a href="#">cardigans</a>
+                <a href="#">Cardigans</a>
                 <br/>
                 
                 <a href="#">Knitwear</a>
@@ -245,23 +205,18 @@
       </div>
     </div>
 </section>
-          
-    
-    
- 
-  
 <!-- Hero -->
         <hr>
 <section>
-             <div class="container mb-5">
+    <div class="container mb-5">
        <h3 style="text-align: center;">PRODUCTS</h3>
-    </section>
+</section>
 
 <!--Products sub Nav bar-->
 <!-- Example split button -->
 <div class="d-flex flexnav p-2 align-items-start justify-content-start">
 <div class="btn-group mx-4 mb-4">
-  <button type="button" class="btn ">SORT BY</button>
+  <button type="button" class="btn sort-by ">SORT BY</button>
   <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="visually-hidden">Toggle Dropdown</span>
   </button>
@@ -273,33 +228,7 @@
   </ul>
 </div>
 <div class="btn-group">
-  <button type="button" class="btn ">SIZE</button>
-  <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="visually-hidden">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Small</a></li>
-    <li><a class="dropdown-item" href="#">Medium</a></li>
-    <li><a class="dropdown-item" href="#">Large</a></li>
-    
-    <li><a class="dropdown-item" href="#">X-Large</a></li>
-  </ul>
-</div>
-<div class="btn-group">
-  <button type="button" class="btn ">PATTERN</button>
-  <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="visually-hidden">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Checked</a></li>
-    <li><a class="dropdown-item" href="#">Color-block</a></li>
-    <li><a class="dropdown-item" href="#">Floral</a></li>
-    <li><a class="dropdown-item" href="#">Striped</a></li>
-    <li><a class="dropdown-item" href="#">Solid color</a></li>
-  </ul>
-</div>
-<div class="btn-group">
-  <button type="button" class="btn ">PRODUCT TYPE</button>
+  <button type="button" class="btn prdt-type">PRODUCT TYPE</button>
   <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="visually-hidden">Toggle Dropdown</span>
   </button>
@@ -311,14 +240,39 @@
     <li><a class="dropdown-item" href="#">Sun glasses</a></li>
   </ul>
 </div>
+<div class="btn-group">
+  <button type="button" class="btn size ">SIZE</button>
+  <button type="button" class="btn size dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Small</a></li>
+    <li><a class="dropdown-item" href="#">Medium</a></li>
+    <li><a class="dropdown-item" href="#">Large</a></li>
+    <li><a class="dropdown-item" href="#">X-Large</a></li>
+  </ul>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn pattern">PATTERN</button>
+  <button type="button" class="btn pattern dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Checked</a></li>
+    <li><a class="dropdown-item" href="#">Color-block</a></li>
+    <li><a class="dropdown-item" href="#">Floral</a></li>
+    <li><a class="dropdown-item" href="#">Striped</a></li>
+    <li><a class="dropdown-item" href="#">Solid color</a></li>
+  </ul>
+</div>
+
 
 </div>
 
-<!--Testing done-->
 
-    <section>
+
+  <section>
       <div class="container container-md text-center">
-       
         <div class="row g-5">
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
@@ -334,12 +288,12 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
-              <img src="Product-Pictures/backshirt.jpeg" class="card-img-top rounded img-fluid" alt="...">
+              <a href="black-shirt.html"> <img src="Product-Pictures/backshirt.jpeg" class="card-img-top rounded img-fluid" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Black Shirt</h5>
                 <p class="card-text card-desc">Regular-fit T-shirt in soft cotton jersey. Ribbed crew neck and a straight-cut hem.</p>
                 <p class="card-text price">$12.99</p>
-                <a href=""><button class="btn-sm buy-now">Buy Now</button></a>
+                <a href="shoppingcart.html"><button class="btn-sm buy-now">Buy Now</button></a>
               </div>
             
             </div>
@@ -372,12 +326,12 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
-              <img src="Product-Pictures/white-shirt2.jpg" class="card-img-top rounded img-fluid" alt="...">
+              <a href="white-shirt.html">  <img src="Product-Pictures/white-shirt3.jpg" class="card-img-top rounded img-fluid" alt="..."> </a>
               <div class="card-body">
                 <h5 class="card-title">White Shirt</h5>
                 <p class="card-text card-desc">Regular-fit T-shirt in soft cotton jersey. Ribbed crew neck and a straight-cut hem.</p>
                 <p class="card-text price">$12.99</p>
-                <a href=""><button class="btn-sm buy-now">Buy Now</button></a>
+                <a href="shoppingcart.html"><button class="btn-sm buy-now">Buy Now</button></a>
               </div>
              
             </div>
@@ -389,7 +343,7 @@
                 <h5 class="card-title">Sun Glasses</h5>
                 <p class="card-text card-desc">Sunglasses with frames, lenses, and sidepieces in plastic. Tinted, UV-protective lenses.</p>
                 <p class="card-text price">$12.99</p>
-                <a href=""><button class="btn-sm buy-now">Buy Now</button></a>
+                <a href="shoppingcart.html"><button class="btn-sm buy-now">Buy Now</button></a>
               </div>
           </div>
           </div>
@@ -408,18 +362,18 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
-              <img src="Product-Pictures/blackshirt3.jpeg"  class="card-img-top rounded img-fluid" alt="...">
+              <a href="blazer.html"><img src="Product-Pictures/blazer1.jpeg"  class="card-img-top rounded img-fluid" alt="..."></a>
               <div class="card-body">
-                <h5 class="card-title">Black Shirt</h5>
-                <p class="card-text card-desc">Regular-fit T-shirt in soft cotton jersey. Ribbed crew neck and a straight-cut hem.</p>
-                <p class="card-text price">$12.99</p>
-                <a href=""><button class="btn-sm buy-now">Buy Now</button></a>
+                <h5 class="card-title">Blazer</h5>
+                <p class="card-text card-desc">Double-breasted jacket in woven fabric. Notched lapels, buttons at front, and welt front pockets.</p>
+                <p class="card-text price">$39.99</p>
+                <a href="shoppingcart.html"><button class="btn-sm buy-now">Buy Now</button></a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
-              <a href="">  <img src="Product-Pictures/jeans3.jpeg" class="card-img-top rounded img-fluid" alt="..."> </a>
+              <a href="jeans.html">  <img src="Product-Pictures/jeans3.jpeg" class="card-img-top rounded img-fluid" alt="..."> </a>
               <div class="card-body">
                 <h5 class="card-title">Regular Jeans</h5>
                 <p class="card-text card-desc">Straight-leg, 5-pocket jeans in durable cotton denim with gentle stretch for added comfort.</p>
@@ -471,10 +425,34 @@
 </section>
     <hr>
     <div class="footer">
-      <p><b>About</b></p>
-      <p><b>Contact</b></p>
-      <p><b>Find A Store</b></p>
-      <p><b>Sustainability</b></p>
+      <table>
+          <tr>
+              <th>Company Info</th>
+              <th>Help</th>
+              <th>Quick Links</th>
+          </tr>
+          <tr>
+              <td>About Us</td>
+              <td>Contact Us</td>
+              <td>Special Offers</td>
+          </tr>
+          <tr>
+              <td>Careers</td>
+              <td>Order Status</td>
+              <td>Gift Cards</td>
+          </tr>
+          <tr>
+              <td>Social Responsibility</td>
+              <td>Shipping Info</td>
+              <td>Gift Cards</td>
+          </tr>
+          <tr>
+              <td>Affiliate Program</td>
+              <td>Online Returns and Exchanges</td>
+              <td>Blog</td>
+          </tr>
+      </table>
+      
       <hr>
       <div class="social_media">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
