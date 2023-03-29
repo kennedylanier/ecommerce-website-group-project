@@ -31,35 +31,49 @@
     position: relative;
     top: 20px;
     font-size: 1.5rem;
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
     border-radius: 1rem;
-  } 
-
-  .btn-transp {
-    background-color: transparent;
+    background-color: black;
     border-color: black;
     color: white;
-  }
+  } 
+ 
+
   /*about*/
   .about-section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%; /* set the height of the container to 100% */
-    padding-top: 50px; /* adjust the value as needed */
+    padding-top: 50px; 
+    padding-bottom: 50px;
   }
   
   .about-section img {
-    margin-bottom: 20px; /* adjust the value as needed */
+    margin-bottom: 20px; 
   }
   
   .about-section h2 {
-    padding-top: 20px; /* adjust the value as needed */
+    padding-top: 20px; 
   }
   
   .about-section p {
-    padding-top: 30px; /* adjust the value as needed */
+    padding-top: 30px; 
   }
+  /*gallery*/
+  .gallery-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-right: 60px;
+  }
+ 
+/*features*/
+.container py-4{
+  padding-top: 70px; 
+    padding-bottom: 70px
+}
   .card {
     position: relative;
     overflow: hidden;
@@ -90,7 +104,12 @@
     opacity: 1;
     transform: translateY(0);
   }
-
-.btn-text-blk{
-    color: black;
+/*contact*/
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* set the height of the container to 100% */
+  padding-top: 50px; /* adjust the value as needed */
+  padding-bottom: 50px;
 }
