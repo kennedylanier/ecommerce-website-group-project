@@ -33,7 +33,7 @@
 
 #button {
     border-radius: 10px;
-    background-color:rgb(99, 179, 104);
+    background-color:rgb(83, 156, 88);
     border: none;
     color: white;
     padding-left: 4px;
@@ -41,7 +41,7 @@
 }
 
 .extra {
-    background-color: #A6BF9E;
+    background-color: rgb(83, 156, 88);
     color:white;
     text-align: center;
     margin-bottom: 20px;
