@@ -9,10 +9,7 @@
     
 }
 
-.bag:hover:{
-    opacity: 0.8;
-    color: rgb(83, 156, 88);
-  }
+
 
 .return {
     padding-right: 10px;
@@ -43,14 +40,21 @@
     text-overflow: wrap;
 }
 
-#button {
-    border-radius: 7px;
-    background-color:rgb(83, 156, 88);
+list .bag {
+    border-radius: 2px;
+    color:white;
     border: none;
-    color: white;
-    padding-left: 4px;
-    padding-right: 4px;
+    background-color: rgb(99, 179, 104);
+    transition: 0.3s;
+  
 }
+
+list .bag:hover{
+ 
+   opacity: 0.8;
+  
+}
+  
 
 .extra {
     background-color: rgb(83, 156, 88);
