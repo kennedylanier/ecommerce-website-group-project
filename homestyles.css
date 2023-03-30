@@ -1,37 +1,37 @@
 
 /* hero */
-.fade-in-image { animation: fadeIn 5s; 
+.fade-in-image {
   animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-  }
-  
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
   
   .hero-image {
       background-image: url('https://bnz06pap004files.storage.live.com/y4mCxy_cj53PvioYNSuETk2cfRAuLXUU9rzSp5ctf-fr0WYCbs2AWSLCZOi-KoZuiDVN90RrN24bUOPv3ldstVDHh7yoZtqRkLWCAT2PDp7xGWCtuhW43l6USQp7aUm1DTRIam5-EgHc-mMNehO9I6NvXfUIpcch2UeYaUOoAy2u9SNE2G5gLPbyaMqXSeKb1vuSpGObA3PY9nANlW7CtygaQ?encodeFailures=1&width=1314&height=876');
@@ -60,20 +60,11 @@
       margin-bottom: 2rem;
     }
     
-    .btn-primary {
-      position: relative;
-      top: 20px;
-      font-size: 1.5rem;
-      padding: .5rem 1rem;
+    .btn {
       border-radius: 1rem;
-      background-color: black;
-      border-color: black;
-      color: white;
+    
     } 
    
-    .btn-hero{
-      margin-top: 70px;
-    }
     /*about*/
     .about-section {
       display: flex;
@@ -111,6 +102,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
+  }
+    .py-4 h2 {
+padding-bottom: 30px;
   }
     .card {
     
@@ -189,7 +183,7 @@
 
 
  .buy-now{
-  border-radius: 2px;
+  border-radius: 1rem;
   color:white;
   border: none;
   background-color: rgb(99, 179, 104);
