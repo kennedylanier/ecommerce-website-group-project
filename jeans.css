@@ -9,6 +9,11 @@
     
 }
 
+.bag:hover:{
+    opacity: 0.8;
+    color: rgb(83, 156, 88);
+  }
+
 .return {
     padding-right: 10px;
 }
