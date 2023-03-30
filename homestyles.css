@@ -70,10 +70,7 @@ animation: fadeIn 5s;
     border-color: black;
     color: white;
   } 
- 
-  .btn-hero{
-    margin-top: 70px;
-  }
+
   /*about*/
   .about-section {
     display: flex;
