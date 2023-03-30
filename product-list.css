@@ -3,12 +3,12 @@ body{
 }
 
 .col-2 h5 {
-  font-family: roboto-medium, arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
 
 .col-2 a {
-  font-family: roboto-thin, arial;
+  font-family: Arial, Helvetica, sans-serif;
   color: #aeadad;  ;
   text-decoration: none;
   font-size: 0.9em;
@@ -52,7 +52,7 @@ body{
      } 
 
 .card .card-desc{
-  font-family: roboto-thin Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #aeadad;  
   font-size: 1em;
 }
